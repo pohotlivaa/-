@@ -1,0 +1,131 @@
+/* Медиа-запрос для планшетов */
+@media (max-width: 768px) {
+    .about-company {
+        flex-direction: column; /* Стековое расположение элементов */
+        gap: 50px; /* Уменьшим отступы */
+    }
+    .about-company__title {
+        width: 100%; /* Полная ширина на планшете */
+        font-size: 24px; /* Уменьшим шрифт */
+    }
+    .about-company__text {
+        width: 100%; /* Полная ширина на планшете */
+        font-size: 14px; /* Уменьшим шрифт */
+    }
+}
+
+/* Медиа-запрос для планшетов */
+@media (max-width: 768px) {
+    .info-banner {
+        width: 100%; /* Полная ширина на планшетах */
+        height: 300px; /* Уменьшаем высоту */
+    }
+    .info-banner__title {
+        font-size: 32px; /* Уменьшаем размер заголовка */
+    }
+    .recipes-list {
+        flex-direction: column; /* Переключаем на вертикальное расположение */
+        margin: 60px 20px; /* Уменьшаем отступы */
+    }
+    .recipes-list__item {
+        margin-bottom: 20px; /* Увеличиваем отступ между карточками */
+    }
+    .recipe-card {
+        width: 100%; /* Полная ширина карточки на планшете */
+    }
+}
+
+/* Медиа-запрос для планшетов */
+@media (max-width: 768px) {
+    .footer__content {
+      flex-direction: column; /* Переключаем на вертикальное расположение */
+      align-items: flex-start; /* Выравниваем по левому краю */
+    }
+
+    .footer__contact-list {
+      gap: 40px; /* Уменьшаем отступы между элементами */
+    }
+  }
+
+/* Медиа-запрос для планшетов */
+@media (max-width: 768px) {
+    body {
+      padding: 20px; /* Добавляем отступы */
+    }
+    main {
+      padding: 10px; /* Добавляем отступы для главного контента */
+    }
+  }
+  
+/* Медиа-запрос для телефонов */
+@media (max-width: 480px) {
+    .about-company {
+        gap: 30px; /* Уменьшим отступы */
+    }
+    .about-company__title {
+        font-size: 20px; /* Уменьшим шрифт */
+    }
+    .about-company__text {
+        font-size: 12px; /* Уменьшим шрифт */
+    }
+    .about-company__link {
+        font-size: 12px; /* Уменьшим шрифт */
+        padding: 10px; /* Уменьшим отступы */
+    }
+}
+
+/* Медиа-запрос для телефонов */
+@media (max-width: 480px) {
+    .info-banner {
+        height: 200px; /* Уменьшаем высоту */
+    }
+    .info-banner__title {
+        font-size: 24px; /* Уменьшаем размер заголовка */
+    }
+    .recipes-list {
+        margin: 30px 10px; /* Уменьшаем отступы */
+    }
+    .recipe-card {
+        width: 100%; /* Полная ширина карточки на телефоне */
+    }
+    .recipe-card__content {
+        padding: 20px; /* Уменьшаем отступы внутри карточки */
+    }
+    .recipe-card__title {
+        font-size: 20px; /* Уменьшаем размер заголовка карточки */
+    }
+    .recipe-card__link {
+        font-size: 14px; /* Уменьшаем размер ссылки */
+    }
+}
+
+  /* Медиа-запрос для телефонов */
+  @media (max-width: 480px) {
+    .footer {
+      padding: 20px 0; /* Уменьшаем отступы */
+    }
+    .footer__content {
+      gap: 20px; /* Уменьшаем отступы между элементами */
+    }
+    .footer__contact-list {
+      flex-direction: column; /* Переключаем на вертикальное расположение */
+      gap: 20px; /* Увеличиваем отступы между контактами */
+    }
+    .footer__contact-name,
+    .footer__contact-phone {
+      font-size: 14px; /* Увеличиваем читаемость на телефоне */
+    }
+  }
+
+  /* Медиа-запрос для телефонов */
+  @media (max-width: 480px) {
+    body {
+      padding: 10px; /* Уменьшаем отступы */
+    }
+    main {
+      padding: 5px; /* Уменьшаем отступы для основного контента */
+    }
+    a {
+      font-size: 14px; /* Увеличиваем размер шрифта для ссылок */
+    }
+  }

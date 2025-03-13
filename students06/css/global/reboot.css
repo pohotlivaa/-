@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2023;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Golos Text", "Arial", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+@media (max-width: 1240px) {
+  body {
+    min-width: auto; 
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px; 
+  }
+
+  main {
+    padding: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px; 
+  }
+
+  main {
+    padding: 5px; 
+  }
+
+  a {
+    font-size: 14px; 
+  }
+}
